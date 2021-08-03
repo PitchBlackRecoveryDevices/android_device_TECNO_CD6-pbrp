@@ -132,3 +132,9 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# PBRP
+
+PB_TORCH_PATH := /sys/devices/virtual/flashlight_core/flashlight
+
+PB_TORCH_MAX_BRIGHTNESS := 1
